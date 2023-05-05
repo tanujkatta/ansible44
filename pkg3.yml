@@ -1,0 +1,108 @@
+groupadd -g 1000 bat22A
+useradd -u 1001 -g 1000 -d /home/vara -s /bin/bash vara
+useradd -u 1002 -g 1000 -d /home/praveen -s /bin/bash praveen
+useradd -u 1003 -g 1000 -d /home/naga -s /bin/bash naga
+useradd -u 1004 -g 1000 -d /home/venkat -s /bin/bash venkat
+useradd -u 1005 -g 1000 -d /home/adi -s /bin/bash adi
+useradd -u 1006 -g 1000 -d /home/chakri -s /bin/bash chakri
+useradd -u 1007 -g 1000 -d /home/sudha -s /bin/bash sudha
+useradd -u 1008 -g 1000 -d /home/satya -s /bin/bash satya
+useradd -u 1009 -g 1000 -d /home/suri -s /bin/bash suri
+useradd -u 1010 -g 1000 -d /home/balu -s /bin/bash balu
+useradd -u 1011 -g 1000 -d /home/kedar -s /bin/bash kedar
+useradd -u 1012 -g 1000 -d /home/venky -s /bin/bash venky
+useradd -u 1013 -g 1000 -d /home/ganesh -s /bin/bash ganesh
+useradd -u 1014 -g 1000 -d /home/dhan -s /bin/bash dhan
+useradd -u 1015 -g 1000 -d /home/jeji -s /bin/bash jeji
+useradd -u 1016 -g 1000 -d /home/ram -s /bin/bash ram
+useradd -u 1017 -g 1000 -d /home/nagu -s /bin/bash nagu
+useradd -u 1018 -g 1000 -d /home/ramana -s /bin/bash ramana
+useradd -u 1019 -g 1000 -d /home/vara2 -s /bin/bash vara2
+useradd -u 1020 -g 1000 -d /home/satish -s /bin/bash satish
+useradd -u 1021 -g 1000 -d /home/koti -s /bin/bash koti
+useradd -u 1022 -g 1000 -d /home/bobby -s /bin/bash bobby
+useradd -u 1023 -g 1000 -d /home/vamsi -s /bin/bash vamsi
+useradd -u 1024 -g 1000 -d /home/kishore -s /bin/bash kishore
+useradd -u 1025 -g 1000 -d /home/srinu -s /bin/bash srinu
+useradd -u 1026 -g 1000 -d /home/srisri -s /bin/bash srisri
+useradd -u 1027 -g 1000 -d /home/akhil -s /bin/bash akhil
+useradd -u 1028 -g 1000 -d /home/prav -s /bin/bash prav
+useradd -u 1029 -g 1000 -d /home/danny -s /bin/bash danny
+useradd -u 1030 -g 1000 -d /home/nisc -s /bin/bash nisc
+useradd -u 1031 -g 1000 -d /home/shiva -s /bin/bash shiva
+useradd -u 1032 -g 1000 -d /home/akash -s /bin/bash akash
+useradd -u 1033 -g 1000 -d /home/anush -s /bin/bash anush
+useradd -u 1034 -g 1000 -d /home/harsha -s /bin/bash harsha
+useradd -u 1035 -g 1000 -d /home/rambo -s /bin/bash rambo
+useradd -u 1036 -g 1000 -d /home/hulk -s /bin/bash hulk
+useradd -u 1037 -g 1000 -d /home/groot -s /bin/bash groot
+useradd -u 1038 -g 1000 -d /home/naresh -s /bin/bash naresh
+useradd -u 1039 -g 1000 -d /home/surya -s /bin/bash surya
+useradd -u 1040 -g 1000 -d /home/ashok -s /bin/bash ashok
+useradd -u 1041 -g 1000 -d /home/prakash -s /bin/bash prakash
+useradd -u 1042 -g 1000 -d /home/nani -s /bin/bash nani
+useradd -u 1043 -g 1000 -d /home/nag -s /bin/bash nag
+useradd -u 1044 -g 1000 -d /home/tanuj -s /bin/bash tanuj
+useradd -u 1045 -g 1000 -d /home/vijay -s /bin/bash vijay
+useradd -u 1046 -g 1000 -d /home/chandu -s /bin/bash chandu
+useradd -u 1047 -g 1000 -d /home/kumar -s /bin/bash kumar
+useradd -u 1048 -g 1000 -d /home/nbabu -s /bin/bash nbabu
+useradd -u 1049 -g 1000 -d /home/nara -s /bin/bash nara
+useradd -u 1050 -g 1000 -d /home/sri -s /bin/bash sri
+useradd -u 1051 -g 1000 -d /home/mani -s /bin/bash mani
+useradd -u 1052 -g 1000 -d /home/dinesh -s /bin/bash dinesh
+useradd -u 1053 -g 1000 -d /home/reddy -s /bin/bash reddy
+echo "praveen" |passwd --stdin praveen
+echo "vara" |passwd --stdin vara
+echo "naga"|passwd --stdin naga
+echo "venkat"|passwd --stdin venkat
+echo "adi"|passwd --stdin adi
+echo "chakri"|passwd --stdin chakri
+echo "sudha"|passwd --stdin sudha
+echo "satya"|passwd --stdin satya
+echo echo "suri"|passwd --stdin suri
+echo "balu"|passwd --stdin balu
+echo "kedar"|passwd --stdin kedar
+echo "venky"|passwd --stdin venky
+echo "ganesh"|passwd --stdin ganesh
+echo "dhan"|passwd --stdin dhan
+echo "jeji"|passwd --stdin jeji
+echo "ram"|passwd --stdin ram
+echo "nagu"|passwd --stdin nagu
+echo "ramana"|passwd --stdin ramana
+echo "vara2"|passwd --stdin vara2
+echo "satish"|passwd --stdin satish
+echo "koti"|passwd --stdin koti
+echo "bobby"|passwd --stdin bobby
+echo "vamsi"|passwd --stdin vamsi
+echo "kishore"|passwd --stdin kishore
+echo "srinu"|passwd --stdin srinu
+echo "srisri"|passwd --stdin srisri
+echo "akhil"|passwd --stdin akhil
+echo "prav"|passwd --stdin prav
+echo "danny"|passwd --stdin danny
+echo "nisc"|passwd --stdin nisc
+echo "shiva"|passwd --stdin shiva
+echo "akash"|passwd --stdin akash
+echo "anush"|passwd --stdin anush
+echo "harsha"|passwd --stdin harsha
+echo "rambo"|passwd --stdin rambo
+echo "hulk"|passwd --stdin hulk
+echo "groot"|passwd --stdin groot
+echo "naresh"|passwd --stdin naresh
+echo "surya"|passwd --stdin surya
+echo "ashok"|passwd --stdin ashok
+echo "prakash"|passwd --stdin prakash
+echo "nani"|passwd --stdin nani
+echo "nag"|passwd --stdin nag
+echo "tanuj"|passwd --stdin tanuj
+echo "vijay"|passwd --stdin vijay
+echo "chandu"|passwd --stdin chandu
+echo "kumar"|passwd --stdin kumar
+echo "nbabu"|passwd --stdin nbabu
+echo "nara"|passwd --stdin nara
+echo "sri"|passwd --stdin sri
+echo "mani"|passwd --stdin mani
+echo "dinesh"|passwd --stdin dinesh
+echo "reddy"|passwd --stdin reddy
+
